@@ -1,0 +1,35 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+
+# Ignore build or debug folders
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Ignore IDE and Code Editor Settings
+.vscode/
+.idea/
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments 
+.venv/
+venv/
+env/
+
+.env
+.env.local
+*.env
+
+
+__pycache__/
+*.pyc
